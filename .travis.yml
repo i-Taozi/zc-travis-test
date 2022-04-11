@@ -8,7 +8,7 @@ install:
   - sh -c 'cd jOOR-java-8 && mvn install -DskipTests=true'
   - sh -c 'cd jOOR-java-6 && mvn install -DskipTests=true'
 script:
-- travis_retry echo 'skip' & return 1
+- travis_retry return 1
 cache:
   directories:
   - $HOME/.m2
