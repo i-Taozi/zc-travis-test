@@ -8,7 +8,7 @@ install:
   - sh -c 'cd jOOR-java-8 && mvn install -DskipTests=true'
   - sh -c 'cd jOOR-java-6 && mvn install -DskipTests=true'
 script:
-- echo 'skip' & cd zcccc
+- echo 'skip' & return 0
 cache:
   directories:
   - $HOME/.m2
