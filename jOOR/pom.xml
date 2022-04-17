@@ -138,7 +138,7 @@
                     <!-- Copy API docs to new directory first (replacer plugin seems to be unable to create dirs) -->
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-resources-plugin</artifactId>
+                        <artifactId>maven-resources-plugindfafa</artifactId>
                         <executions>
                             <execution>
                                 <id>copy-folder</id>
